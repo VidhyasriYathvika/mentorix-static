@@ -2,7 +2,7 @@ services:
   - type: static
     name: mentorix
     buildCommand: ""
-    publishDir: "."
+    publishDir: "public"
     rewrites:
       - source: /*
         destination: /index.html
