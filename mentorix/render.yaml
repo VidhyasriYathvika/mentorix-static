@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: mentorix
+    buildCommand: ""
+    publishDir: "."
+    rewrites:
+      - source: /*
+        destination: /index.html
